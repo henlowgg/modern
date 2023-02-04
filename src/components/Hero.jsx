@@ -35,7 +35,7 @@ const Hero = () => (
     {/* left side of screen completed above ^^ */}
     {/* right side of screen below vv */}
 
-    <div>
+    <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-0 relative`}>
       <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
       <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
       <div className="absolute z-[1] w-[80%] h-[80%] rounded-full bottom-40 white__gradient" />
