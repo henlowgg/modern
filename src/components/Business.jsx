@@ -14,6 +14,16 @@ const Business = () => {
         </p>
 
         <Button styles="mt-10" />
+      
+      </div>
+
+{/* creating a resusable feature card component for future application or easy fix */}
+
+      <div className={`${layout.sectionImg} flex-col`}>
+        {features.map((feature, index) => (
+          <FeatureCard />
+        ))}
+
       </div>
 
     </section>
